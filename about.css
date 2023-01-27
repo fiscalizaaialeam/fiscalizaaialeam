@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: #272A59;
+    margin-bottom: 10px;
+}
+
+#logotipo {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+nav {
+    display: block;
+    padding-left: 12px;
+    padding-bottom: 4px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+#box-content {
+    font-family: 'Quicksand', sans-serif;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 0px 8px 0px 8px;
+}
+
+h1 {
+    color: #2BA8D9;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+#div_perfil {
+    display: flex;
+}
+
+#foto_perfil {
+    display: block;
+    width: 120px;
+}
+
+h4 {
+    margin-bottom: 8px;
+}
+
+#redes_sociais {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(235, 109, 130);
+    color: white;
+}
+
+.fa-facebook {
+    background: rgb(91, 91, 255);
+    color: white;
+}
+
+.fa {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    width: 32px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #37A686;
+    margin-top: 10px;
+}
+
+#redes_sociais_footer {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#redes_sociais_footer .fa:hover {
+    opacity: 0.9;
+}
+
+#redes_sociais_footer .fa-linkedin {
+    background: #37A686;
+    color: white;
+}
+
+#redes_sociais_footer .fa-instagram {
+    background: #37A686;
+    color: white;
+}
+
+#redes_sociais_footer .fa-facebook {
+    background: #37A686;
+    color: white;
+}
+
+#redes_sociais_footer .fa {
+    text-align: center;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+}

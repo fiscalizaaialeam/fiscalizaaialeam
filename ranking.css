@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: #272A59;
+    margin-bottom: 10px;
+}
+
+#logotipo {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+nav {
+    display: block;
+    padding-left: 12px;
+    padding-bottom: 4px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+#box-content {
+    font-family: 'Quicksand', sans-serif;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 0px 8px 0px 8px;
+}
+
+#titulo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#divCard {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#divLinha {
+    max-width: 800px;
+    min-width: 320px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#divCard img {
+    display: block;
+    width: 100px;
+    box-shadow: 0px 0px 2px black;
+}
+
+#divCard #divTexto {
+    margin-left: 8px;
+}
+
+#divCard #divTexto h2 {
+    margin-bottom: 4px;
+}
+
+#divCard #divTexto h3 {
+    margin-bottom: 12px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #37A686;
+    margin-top: 10px;
+}
+
+#redes_sociais_footer {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #37A686;
+    color: white;
+}
+
+.fa-instagram {
+    background: #37A686;
+    color: white;
+}
+
+.fa-facebook {
+    background: #37A686;
+    color: white;
+}
+
+.fa {
+    text-align: center;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
