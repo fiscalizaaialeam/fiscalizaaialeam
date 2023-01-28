@@ -26,6 +26,7 @@ header {
 #menu ul {
     padding-left: 0px;
     list-style-type: none;
+    margin-bottom: 2px;
 }
 
 #menu li {
@@ -51,6 +52,7 @@ header {
         background-color: #272A59;
         cursor: pointer;
         font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
     }
 
     #menu ul {
