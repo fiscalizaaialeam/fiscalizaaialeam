@@ -26,22 +26,6 @@ body {
     margin: 0px 0px 6px 0px;
 }
 
-table {
-    font-weight: 800;
-    border-collapse: collapse;
-    max-width: 800px;
+#myChart {
     margin: auto;
-}
-
-th {
-    text-align: center;
-    background-color: #2BA8D9;
-    color: white;
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
 }

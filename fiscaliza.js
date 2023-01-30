@@ -30,20 +30,58 @@ for (let b =0; b < cards.length; b++){
     }
 }
 
-/*
+
 
 function infoDep(id_dep){
     console.log(deputadosData);
     console.log(id_dep);
+    /* Pegando informações específicas de um único deputado */
     let info = deputadosData.find(item => item.id == id_dep);
     console.log(info.nome);
     let nameDep = info.nome;
-    let foto = info.urlFoto;
+    let foto = info.urlfoto;
     let partido = info.partido;
     let email = info.Email;
     let total_gasto = info.despesaTotal;
+    /* Pegando informações específicas de um único deputado */
+
+
+    /* pegando informações de gastos de um deputado, filtrando uma planilha completa */
     let infoGastos = deputadosGastos.filter(deputado => deputado.codigo == id_dep);
     console.log(infoGastos);
+
+    let chart = document.createElement("div");
+    chart.className = "myChart"
+
+
+    let xValues = infoGastos.map(function(value) {
+        return value.data;
+      });
+
+    console.log(xValues);
+
+    let lista = []
+
+    for (let l = 0; l < xValues.length; l++){
+
+        let valor_string = `"${xValues[l]}"`
+
+        lista.push(valor_string);
+    }
+
+    console.log(lista)
+
+    let yValues = infoGastos.map(function(value) {
+        return value.valor;
+      });
+
+
+      
+      
+      
+
+    /* Código da tabela
+
     let datas = infoGastos.map(function (type) {
         return type.data;
     });
@@ -74,11 +112,14 @@ function infoDep(id_dep){
 
     table += `</tbody></table>`;
 
+    */
+
     let newPage = window.open("");
     newPage.document.write(
     `<html>
     <head>
     <link rel="stylesheet" href="page_gastos.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <title>${nameDep}</title>
     </head>
     <body>
@@ -93,12 +134,37 @@ function infoDep(id_dep){
     <div>
     <h2>Total Gasto: ${total_gasto}</h2>
     <h2>Detalhamento dos valores gastos</h2>
-    ${table}
+    <div id="myChart" style="width:100%;max-width:875px"></div>
     </div>
+    <script>
+    const data = [{
+        x: [${lista}],
+        y: [${yValues}],
+        mode:"lines"
+    }];
+    
+      
+      // Define Layout
+    const layout = {
+        margin: {
+          l: 50,
+          r: 25,
+          b: 75,
+          t: 50,
+        },
+    };
+      
+    const config = {responsive: true}
+
+    // Display using Plotly
+    Plotly.newPlot("myChart", data, layout, config);
+    </script>
     </body>
     </html>`
     );
+
+        
+
 }
-*/
 
 main();
