@@ -2,9 +2,9 @@ const rankingData = window.deputados;
 console.log(rankingData);
 
 const rankingDataOrdered = rankingData.sort((a, b) => {
-	if(a.DespesasTotal > b.DespesasTotal){
+	if(a.despesaTotal > b.despesaTotal){
 	   return -1;
-	} else if(a.DespesasTotal < b.DespesasTotal){
+	} else if(a.despesaTotal < b.despesaTotal){
 		return 1;
 	}
 	return 0;
@@ -14,10 +14,10 @@ console.log(rankingDataOrdered);
 
 let box = document.querySelector("#box-cards");
 
-for (let a = 7; a >= 0; a--) {
+for (let a = 23; a >= 0; a--) {
     // imagem 
     img = document.createElement("img");
-    img.src = rankingDataOrdered[a].urlFoto;
+    img.src = rankingDataOrdered[a].urlfoto;
     console.log(img);
     // nome do deputado
     let name = document.createElement("h2");
@@ -25,11 +25,12 @@ for (let a = 7; a >= 0; a--) {
     console.log(name);
     // partido 
     let partido = document.createElement("h3");
-    partido.innerHTML = rankingDataOrdered[a].siglaPartido;
+    partido.innerHTML = rankingDataOrdered[a].partido;
     console.log(partido);
     // valor gasto
     let valor = document.createElement("h1");
-    valor.innerHTML = rankingDataOrdered[a].DespesasTotal;
+    let moeda = rankingDataOrdered[a].despesaTotal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+    valor.innerHTML = moeda;
     console.log(valor);
     // div texto 
     let divTexto = document.createElement("div");
@@ -48,7 +49,7 @@ for (let a = 7; a >= 0; a--) {
     let divLinha = document.createElement("div");
     divLinha.setAttribute("id","divLinha");
     // adicionando à caixa de contúdo do html 
-    if (a != 7) {
+    if (a != 23) {
         box.insertAdjacentElement("afterbegin",divLinha);
     }
     box.insertAdjacentElement("afterbegin",divCard);

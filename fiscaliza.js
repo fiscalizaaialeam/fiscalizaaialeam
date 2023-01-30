@@ -10,7 +10,7 @@ for (let a = 0; a < deputadosData.length; a++ ) {
     let name = document.createElement("h6");
     name.innerHTML = deputadosData[a].nome;
     img = document.createElement("img");
-    img.src = deputadosData[a].urlFoto;
+    img.src = deputadosData[a].urlfoto;
     let card = document.createElement("div");
     card.className = "card"
     card.setAttribute("id",deputadosData[a].id);
@@ -30,6 +30,8 @@ for (let b =0; b < cards.length; b++){
     }
 }
 
+/*
+
 function infoDep(id_dep){
     console.log(deputadosData);
     console.log(id_dep);
@@ -37,16 +39,16 @@ function infoDep(id_dep){
     console.log(info.nome);
     let nameDep = info.nome;
     let foto = info.urlFoto;
-    let partido = info.siglaPartido;
-    let email = info.email;
-    let total_gasto = info.DespesasTotal;
+    let partido = info.partido;
+    let email = info.Email;
+    let total_gasto = info.despesaTotal;
     let infoGastos = deputadosGastos.filter(deputado => deputado.codigo == id_dep);
     console.log(infoGastos);
-    let despesas = infoGastos.map(function (type) {
-        return type.despesa;
+    let datas = infoGastos.map(function (type) {
+        return type.data;
     });
-    console.log(despesas); // ['John', 'Wayne', 'David']
-    let uniques = [...new Set(despesas)];
+    console.log(datas); // ['John', 'Wayne', 'David']
+    let uniques = [...new Set(datas)];
     console.log(uniques);
 
     let total = 0;
@@ -97,5 +99,6 @@ function infoDep(id_dep){
     </html>`
     );
 }
+*/
 
 main();
