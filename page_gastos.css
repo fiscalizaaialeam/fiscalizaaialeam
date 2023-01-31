@@ -28,6 +28,7 @@ body {
 }
 
 #perfil_dep #perfil_info {
+    max-width: 600px;
     margin-left: 8px;
 }
 
