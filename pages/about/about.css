@@ -103,6 +103,18 @@ h4 {
     margin-bottom: 8px;
 }
 
+@media (max-width: 600px) {
+    #div_perfil {
+    display: block;
+    }
+
+    #foto_perfil {
+        display: block;
+        width: 120px;
+        margin: auto;
+    }
+}
+
 #redes_sociais {
     max-width: 300px;
     margin: auto;

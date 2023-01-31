@@ -119,24 +119,29 @@ function infoDep(id_dep){
     newPage.document.write(
     `<html>
     <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page_gastos.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <title>${nameDep}</title>
     </head>
     <body>
-    <div id="perfil_dep">
-    <img id="perfil_image" src=${foto}>
-        <div id="perfil_info">
-            <h1>${nameDep}</h1>
-            <h3>${partido}</h3>
-            <h3>${email}</h3>
-            <h3>${contato}</h3>
+    <div id="content">
+        <div id="perfil_dep">
+        <img id="perfil_image" src=${foto}>
+            <div id="perfil_info">
+                <h1>${nameDep}</h1>
+                <h3>${partido}</h3>
+                <h3>E-mail: ${email}</h3>
+                <h3>Tel.: ${contato}</h3>
+            </div>
         </div>
-    </div>
-    <div>
-    <h2>Total Gasto: ${total_gasto}</h2>
-    <h2>Detalhamento dos valores gastos</h2>
-    <div id="myChart" style="width:100%;max-width:875px"></div>
+        <div>
+            <h2>Total Gasto: ${total_gasto}</h2>
+            <h2>Evolução dos valores gastos (2019-2022)</h2>
+            <div id="myChart" style="width:100%;max-width:875px"></div>
+        </div>
     </div>
     <script>
     const data = [{
@@ -164,7 +169,6 @@ function infoDep(id_dep){
     </body>
     </html>`
     );
-
         
 
 }

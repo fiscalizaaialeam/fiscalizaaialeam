@@ -14,14 +14,17 @@ console.log(rankingDataOrdered);
 
 let box = document.querySelector("#box-cards");
 
+let num_ranking = 25;
+
 for (let a = 23; a >= 0; a--) {
     // imagem 
+    num_ranking -= 1;
     img = document.createElement("img");
     img.src = rankingDataOrdered[a].urlfoto;
     console.log(img);
     // nome do deputado
     let name = document.createElement("h2");
-    name.innerHTML = rankingDataOrdered[a].nome;
+    name.innerHTML = `${num_ranking}° - ${rankingDataOrdered[a].nome}`;
     console.log(name);
     // partido 
     let partido = document.createElement("h3");

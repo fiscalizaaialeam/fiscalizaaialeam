@@ -126,14 +126,16 @@ img {
 }
 
 h6 {
+    padding-top: 2px;
     color: white;
     text-align: center;
     font-size: 10px;
     width: 100px;
-    height: 25px;
+    height: 28px;
     background-color: #2BA8D9;
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
+    box-sizing: border-box;
 }
 
 footer {
