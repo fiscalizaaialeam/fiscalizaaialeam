@@ -42,6 +42,7 @@ function infoDep(id_dep){
     let foto = info.urlfoto;
     let partido = info.partido;
     let email = info.Email;
+    let contato = info.telefone;
     let total_gasto = info.despesaTotal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
     /* Pegando informações específicas de um único deputado */
 
@@ -129,6 +130,7 @@ function infoDep(id_dep){
             <h1>${nameDep}</h1>
             <h3>${partido}</h3>
             <h3>${email}</h3>
+            <h3>${contato}</h3>
         </div>
     </div>
     <div>
@@ -140,7 +142,7 @@ function infoDep(id_dep){
     const data = [{
         x: [${lista}],
         y: [${yValues}],
-        mode:"lines"
+        type:"line"
     }];
     
       
