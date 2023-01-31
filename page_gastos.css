@@ -4,17 +4,12 @@
     margin: 0px;
 }
 
-body {
-    background-color: #2BA8D9;
-}
-
 #content {
     font-family: 'Quicksand', sans-serif;
     max-width: 800px;
     min-width: 320px;
     margin: auto;
     padding: 10px 4px 4px 8px;
-    background-color: white;
 }
 
 #perfil_dep {
