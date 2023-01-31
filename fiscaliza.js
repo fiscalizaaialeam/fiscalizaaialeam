@@ -137,6 +137,7 @@ function infoDep(id_dep){
                 <h3>Tel.: ${contato}</h3>
             </div>
         </div>
+        <div id="linha"></div>
         <div>
             <h2>Total Gasto: ${total_gasto}</h2>
             <h2>Evolução dos valores gastos (2019-2022)</h2>
