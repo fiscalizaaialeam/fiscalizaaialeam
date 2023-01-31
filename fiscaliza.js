@@ -42,7 +42,7 @@ function infoDep(id_dep){
     let foto = info.urlfoto;
     let partido = info.partido;
     let email = info.Email;
-    let total_gasto = info.despesaTotal;
+    let total_gasto = info.despesaTotal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
     /* Pegando informações específicas de um único deputado */
 
 
