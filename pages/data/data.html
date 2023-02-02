@@ -15,8 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="ranking.css">
-    <title>ranking de gastos - deputados estaduais do Amazonas</title>
+    <link rel="stylesheet" href="data.css">
+    <title>dados dos gastos com a CEAP</title>
 </head>
 <body>
     <header>
@@ -26,17 +26,14 @@
             <ul>
                 <li><a href="../../index.html">DEPUTADOS</a></li>
                 <li><a href="#">RANKING - GASTOS (CEAP)</a></li>
-                <li><a href="../data/data.html">DADOS</a></li>
+                <li><a href="#">DADOS</a></li>
                 <li><a href="../about/about.html">ABOUT</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="box-content" >
-            <h2 id="titulo" >Ranking de Gastos dos Deputados Estaduais do Amazonas com a Cota para Exercício 
-                da Atividade Parlamentar (CEAP) - (2019 até 2022)
-            </h2>
-            <div id="box-cards"></div>
+        <div id="box-content">
+            <div id="myChart" style="width:100%;max-width:875px"></div> 
         </div>
     </main>
     <footer>
@@ -47,8 +44,9 @@
             <a href="#" class="fa fa-facebook"></a>
         </div>
     </footer>
-    <script src="../../arquivos_javascript_deputados/info_deputadosEstaduais_2023.js" ></script>
-    <script src="ranking.js" ></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="../../arquivos_javascript_deputados/gastos_deputados_estaduais_total.js"></script>
+    <script src="data.js"></script>
     <script src="../../menu.js" ></script>
 </body>
 </html>
