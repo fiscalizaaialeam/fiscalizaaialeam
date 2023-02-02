@@ -17,9 +17,6 @@ const data = [{
   
   // Define Layout
 const layout = {
-    title: {
-        text:'Evolução do valores gastos com a CEAP (jan/19 - dez/22)',
-        },
     margin: {
       l: 50,
       r: 25,
@@ -29,7 +26,9 @@ const layout = {
 };
   
 const config = {responsive: true}
-  
+
   // Display using Plotly
 Plotly.newPlot("myChart", data, layout, config);
+
+
 

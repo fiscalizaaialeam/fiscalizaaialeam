@@ -71,8 +71,39 @@ header {
 
 }
 
+#box-content {
+    font-family: 'Quicksand', sans-serif;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 0px 8px 0px 8px;
+    margin-bottom: 15x;
+}
+
+h7 {
+    font-weight: 800;
+}
+
 #myChart {
     margin: auto;
+}
+
+#botao {
+    margin-top: 15px;
+    font-weight: 800;
+    color: white;
+    background-color: #272A59;
+    width: 120px;
+    height: 35px;
+    border-radius: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 6px;
+    margin-bottom: 20px;
+}
+
+#botao:hover {
+    box-shadow: 0px 0px 10px #272A59;
 }
 
 footer {
@@ -80,9 +111,6 @@ footer {
     height: 50px;
     background-color: #37A686;
     margin-top: 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 #redes_sociais_footer {
