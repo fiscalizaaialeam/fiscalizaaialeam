@@ -152,26 +152,26 @@ footer {
     justify-content: space-between;
 }
 
-.fa:hover {
+#redes_sociais_footer .fa:hover {
     opacity: 0.9;
 }
 
-.fa-linkedin {
+#redes_sociais_footer .fa-linkedin {
     background: #37A686;
     color: white;
 }
 
-.fa-instagram {
+#redes_sociais_footer .fa-instagram {
     background: #37A686;
     color: white;
 }
 
-.fa-facebook {
+#redes_sociais_footer .fa-twitter {
     background: #37A686;
     color: white;
 }
 
-.fa {
+#redes_sociais_footer .fa {
     text-align: center;
     font-size: 25px;
     width: 50px;
