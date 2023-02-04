@@ -80,7 +80,13 @@ header {
     margin-bottom: 15x;
 }
 
-h7 {
+h2 {
+    color: #2BA8D9;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+h4 {
     font-weight: 800;
 }
 
@@ -99,7 +105,7 @@ h7 {
     text-align: center;
     box-sizing: border-box;
     padding-top: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #botao:hover {
