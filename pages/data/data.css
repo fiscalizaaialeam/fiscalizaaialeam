@@ -112,6 +112,18 @@ h4 {
     box-shadow: 0px 0px 10px #272A59;
 }
 
+#texto {
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 800;
+}
+
+b {
+    color: #2BA8D9
+}
+
 a {
     text-decoration: none;
 }
