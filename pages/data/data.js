@@ -30,5 +30,14 @@ const config = {responsive: true}
   // Display using Plotly
 Plotly.newPlot("myChart", data, layout, config);
 
+function alerta() {
+  swal({
+      title: "Aviso importante!",
+      text: "A minha base de dados está passando por um processo de auditoria de todos os valores gastos pelos deputados aqui apresentados, ou seja, a base de dados pode vir a mudar no curto prazo.",
+      icon: "warning",
+      dangerMode: true,
+    })
+}
 
+alerta();
 

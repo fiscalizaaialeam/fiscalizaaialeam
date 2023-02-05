@@ -57,3 +57,16 @@ for (let a = 23; a >= 0; a--) {
     }
     box.insertAdjacentElement("afterbegin",divCard);
 }
+
+const aviso = "<h3>Aviso importante</h3>"
+
+function alerta() {
+    swal({
+        title: "Aviso importante!",
+        text: "A Página de Ranking está passando por um processo de auditoria de dados de todos os deputados, então o ranking pode mudar até o término do processo de auditoria. Até o presente momento, os deputados auditados foram: ADJUTO AFONSO; ABDALA FRAXE; BELARMINO LINS",
+        icon: "warning",
+        dangerMode: true,
+      })
+}
+
+alerta();
