@@ -278,7 +278,7 @@ window.deputados = [
    {
     "id": 201924,
     "nome": "WILKER BARRETO",
-    "despesaTotal": 1780106.1800000002,
+    "despesaTotal": 1796956.18,
     "nome civil": "Mauricio Wilker de Azevedo Barreto",
     "naturalidade": "Manaus (AM)",
     "nascimento": "08\/01\/1976",
