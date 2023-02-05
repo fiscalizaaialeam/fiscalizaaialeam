@@ -74,7 +74,7 @@ window.deputados = [
    {
     "id": 201902,
     "nome": "CARLINHOS BESSA",
-    "despesaTotal": 1708538.85,
+    "despesaTotal": 1745889.17,
     "nome civil": "Carlos Eduardo Bessa de Sá",
     "naturalidade": "Tefé (AM)",
     "nascimento": "05\/22\/1984",
@@ -110,7 +110,7 @@ window.deputados = [
    {
     "id": 201916,
     "nome": "DR. GOMES",
-    "despesaTotal": 1696329.75,
+    "despesaTotal": 1712204.75,
     "nome civil": "Francisco do Nascimento Gomes",
     "naturalidade": "Cruzeiro do Sul (AC)",
     "nascimento": "09\/08\/1974",
