@@ -55,6 +55,10 @@ header {
         font-weight: bold;
     }
 
+    #menu {
+    padding-left: 0px;
+    }
+
     #menu ul {
         display: none;
     }

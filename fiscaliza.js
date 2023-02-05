@@ -32,20 +32,4 @@ for (let b =0; b < cards.length; b++){
 
 
 
-function infoDep(id_dep){
-    console.log(deputadosData);
-    console.log(id_dep);
-    /* Pegando informações específicas de um único deputado */
-    let info = deputadosData.find(item => item.id == id_dep);
-    console.log(info.nome);
-    let nameDep = info.nome;
-    let foto = info.urlfoto;
-    let partido = info.partido;
-    let email = info.Email;
-    let contato = info.telefone;
-    let total_gasto = info.despesaTotal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
-    /* Pegando informações específicas de um único deputado */   
-
-}
-
 main();
