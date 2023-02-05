@@ -1,7 +1,4 @@
 const deputadosData = window.deputados;
-const deputadosGastos = window.gastos;
-console.log(deputadosData);
-console.log(deputadosGastos);
 
 function main(){
 let content_div = document.querySelector("#box-cards");
@@ -17,17 +14,8 @@ for (let a = 0; a < deputadosData.length; a++ ) {
     card.appendChild(img);
     card.appendChild(name);
     content_div.insertAdjacentElement("afterbegin",card);
-}
-
-let cards = document.querySelectorAll(".card");
-for (let b =0; b < cards.length; b++){
-    let element = cards[b];
-    element.addEventListener("click", () => {
-        let elementId = element.id;
-        console.log(elementId);
-        //infoDep(elementId);
-        })
     }
+
 }
 
 
