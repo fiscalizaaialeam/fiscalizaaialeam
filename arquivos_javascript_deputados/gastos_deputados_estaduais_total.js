@@ -117,7 +117,7 @@ window.gastos = [
                 "month": 8,
                 "year": 2020,
                 "data": "Aug-20",
-                "valor": 641616.76
+                "valor": 658466.76
                },
                {
                 "month": 9,
@@ -129,7 +129,7 @@ window.gastos = [
                 "month": 10,
                 "year": 2020,
                 "data": "Oct-20",
-                "valor": 840036.6099999999
+                "valor": 872705.6599999999
                },
                {
                 "month": 11,
@@ -165,7 +165,7 @@ window.gastos = [
                 "month": 4,
                 "year": 2021,
                 "data": "Apr-21",
-                "valor": 929583.3200000001
+                "valor": 982774.3200000001
                },
                {
                 "month": 5,
@@ -189,7 +189,7 @@ window.gastos = [
                 "month": 8,
                 "year": 2021,
                 "data": "Aug-21",
-                "valor": 828349.12
+                "valor": 914101.12
                },
                {
                 "month": 9,
@@ -207,7 +207,7 @@ window.gastos = [
                 "month": 11,
                 "year": 2021,
                 "data": "Nov-21",
-                "valor": 1173354.4300000002
+                "valor": 1217204.4300000002
                },
                {
                 "month": 12,

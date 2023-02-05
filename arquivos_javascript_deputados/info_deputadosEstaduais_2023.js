@@ -110,7 +110,7 @@ window.deputados = [
    {
     "id": 201916,
     "nome": "DR. GOMES",
-    "despesaTotal": 1712204.75,
+    "despesaTotal": 1797891.75,
     "nome civil": "Francisco do Nascimento Gomes",
     "naturalidade": "Cruzeiro do Sul (AC)",
     "nascimento": "09\/08\/1974",
@@ -134,7 +134,7 @@ window.deputados = [
    {
     "id": 201908,
     "nome": "FAUSTO JÚNIOR",
-    "despesaTotal": 1672259.86,
+    "despesaTotal": 1802034.91,
     "nome civil": "Fausto Vieira dos Santos Júnior",
     "naturalidade": "Manaus (AM)",
     "nascimento": "20\/12",
