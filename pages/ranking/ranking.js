@@ -1,5 +1,4 @@
 const rankingData = window.deputados;
-console.log(rankingData);
 
 const rankingDataOrdered = rankingData.sort((a, b) => {
 	if(a.despesaTotal > b.despesaTotal){
@@ -10,7 +9,6 @@ const rankingDataOrdered = rankingData.sort((a, b) => {
 	return 0;
 })
 
-console.log(rankingDataOrdered);
 
 let box = document.querySelector("#box-cards");
 
@@ -21,33 +19,27 @@ for (let a = 23; a >= 0; a--) {
     num_ranking -= 1;
     img = document.createElement("img");
     img.src = rankingDataOrdered[a].urlfoto;
-    console.log(img);
     // nome do deputado
     let name = document.createElement("h2");
     name.innerHTML = `${num_ranking}° - ${rankingDataOrdered[a].nome}`;
-    console.log(name);
     // partido 
     let partido = document.createElement("h3");
     partido.innerHTML = rankingDataOrdered[a].partido;
-    console.log(partido);
     // valor gasto
     let valor = document.createElement("h1");
     let moeda = rankingDataOrdered[a].despesaTotal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
     valor.innerHTML = moeda;
-    console.log(valor);
     // div texto 
     let divTexto = document.createElement("div");
     divTexto.setAttribute("id","divTexto");
     divTexto.appendChild(name);
     divTexto.appendChild(partido);
     divTexto.appendChild(valor);
-    console.log(divTexto);
     // div card
     let divCard = document.createElement("div");
     divCard.setAttribute("id","divCard");
     divCard.appendChild(img);
     divCard.appendChild(divTexto);
-    console.log(divCard);
     // div linha
     let divLinha = document.createElement("div");
     divLinha.setAttribute("id","divLinha");
