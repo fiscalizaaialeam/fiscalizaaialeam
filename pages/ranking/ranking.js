@@ -18,7 +18,7 @@ for (let a = 23; a >= 0; a--) {
     // imagem 
     num_ranking -= 1;
     img = document.createElement("img");
-    img.src = rankingDataOrdered[a].urlfoto;
+    img.src = `../../images/deputados/${rankingDataOrdered[a].urlfoto}-min.png`;
     // nome do deputado
     let name = document.createElement("h2");
     name.innerHTML = `${num_ranking}° - ${rankingDataOrdered[a].nome}`;

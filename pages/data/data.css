@@ -56,8 +56,8 @@ header {
     }
 
     #menu {
-        padding-left: 0px;
-        }
+    padding-left: 0px;
+    }
 
     #menu ul {
         display: none;
@@ -71,6 +71,11 @@ header {
 
     #menu li {
         display: block;
+        margin-bottom: 2px;
+    }
+
+    #menu a {
+        margin-left: 0px;
     }
 
 }
