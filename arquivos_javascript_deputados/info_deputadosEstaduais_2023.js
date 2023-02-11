@@ -1,146 +1,266 @@
 window.deputados = [
   {
-    "nome": "ABDALA FRAXE",
-    "despesaTotal": 1826676.06,
-    "partido": "avante",
-    "urlfoto": "ABDALA_FRAXE"
-   },
-   {
-    "nome": "ADJUTO AFONSO",
-    "despesaTotal": 1828913.57,
-    "partido": "união brasil",
-    "urlfoto": "ADJUTO_AFONSO"
-   },
-   {
-    "nome": "ALESSANDRA CAMPÊLO",
-    "despesaTotal": 1048216.9600000001,
-    "partido": "partido social cristão",
-    "urlfoto": "ALESSANDRA_CAMPÊLO"
-   },
-   {
-    "nome": "ÁLVARO CAMPELO",
-    "despesaTotal": 1600453.63,
-    "partido": "partido verde",
-    "urlfoto": "ÁLVARO_CAMPÊLO"
-   },
-   {
-    "nome": "BELARMINO LINS",
-    "despesaTotal": 1821813.3600000003,
-    "partido": "progressistas",
-    "urlfoto": "BELARMINO_LINS"
-   },
-   {
-    "nome": "CABO MACIEL",
-    "despesaTotal": 1634525.75,
-    "partido": "partido liberal",
-    "urlfoto": "CABO_MACIEL"
-   },
-   {
-    "nome": "CARLINHOS BESSA",
-    "despesaTotal": 1745889.17,
-    "partido": "partido verde",
-    "urlfoto": "CARLINHOS_BESSA"
-   },
-   {
-    "nome": "DELEGADO PÉRICLES",
-    "despesaTotal": 1256830.9300000002,
-    "partido": "partido liberal",
-    "urlfoto": "DELEGADO_PÉRICLES"
-   },
-   {
-    "nome": "DERMILSON CHAGAS",
-    "despesaTotal": 1771283.3800000001,
-    "partido": "republicanos",
-    "urlfoto": "DERMILSON_CHAGAS"
-   },
-   {
-    "nome": "DR. GOMES",
-    "despesaTotal": 1797891.75,
-    "partido": "partido social cristão",
-    "urlfoto": "DR_GOMES"
-   },
-   {
-    "nome": "DRA. MAYARA",
-    "despesaTotal": 1731077.5200000003,
-    "partido": "republicanos",
-    "urlfoto": "DRA_MAYARA"
-   },
-   {
-    "nome": "FAUSTO JÚNIOR",
-    "despesaTotal": 1802034.91,
-    "partido": "união brasil",
-    "urlfoto": "FAUSTO_JÚNIOR"
-   },
-   {
-    "nome": "FELIPE SOUZA",
-    "despesaTotal": 1792784.51,
-    "partido": "patriota",
-    "urlfoto": "FELIPE_SOUZA"
-   },
-   {
-    "nome": "JOANA DARC",
-    "despesaTotal": 1657953.68,
-    "partido": "união brasil",
-    "urlfoto": "JOANA_DARC"
-   },
-   {
-    "nome": "JOÃO LUIZ",
-    "despesaTotal": 1635618.2800000003,
-    "partido": "republicanos",
-    "urlfoto": "JOÃO_LUIZ"
-   },
-   {
-    "nome": "NEJMI AZIZ",
-    "despesaTotal": 767064.6499999999,
-    "partido": "partido social democrata",
-    "urlfoto": "NEJMI_AZIZ"
-   },
-   {
-    "nome": "RICARDO NICOLAU",
-    "despesaTotal": 1495709.7500000002,
-    "partido": "solidariedade",
-    "urlfoto": "RICARDO_NICOLAU"
-   },
-   {
-    "nome": "ROBERTO CIDADE",
-    "despesaTotal": 1768746.2999999996,
-    "partido": "união brasil",
-    "urlfoto": "ROBERTO_CIDADE"
-   },
-   {
-    "nome": "SAULLO VIANNA",
-    "despesaTotal": 1750149.1799999997,
-    "partido": "união brasil",
-    "urlfoto": "SAULLO_VIANNA"
-   },
-   {
-    "nome": "SERAFIM CORRÊA",
-    "despesaTotal": 970532.62,
-    "partido": "partido socialista brasileiro",
-    "urlfoto": "SERAFIM_CORRÊA"
-   },
-   {
-    "nome": "SINÉSIO CAMPOS",
-    "despesaTotal": 1706936.88,
-    "partido": "partido dos trabalhadores",
-    "urlfoto": "SINÉSIO_CAMPOS"
-   },
-   {
-    "nome": "THEREZINHA RUIZ",
-    "despesaTotal": 1798091.1699999997,
-    "partido": "partido liberal",
-    "urlfoto": "THEREZINHA_RUIZ"
-   },
-   {
-    "nome": "TONY MEDEIROS",
-    "despesaTotal": 937119.8999999999,
-    "partido": "partido liberal",
-    "urlfoto": "TONY_MEDEIROS"
-   },
-   {
-    "nome": "WILKER BARRETO",
-    "despesaTotal": 1796956.18,
-    "partido": "cidadania23",
-    "urlfoto": "WILKER_BARRETO"
-   }
-  ]
+  "id": 201911,
+  "nome": "ABDALA FRAXE",
+  "foto": "ABDALA_FRAXE",
+  "despesaTotal": 1826676.06,
+  "partido": "avante",
+  "naturalidade": "Boa Vista (RR)",
+  "nomeCivil": "Abdala Habib Fraxe Júnior",
+  "telefone": "(92) 3183-4434",
+  "Email": "deputado.abdalafraxe@aleam.gov.br"
+ },
+ {
+  "id": 201904,
+  "nome": "ADJUTO AFONSO",
+  "foto": "ADJUTO_AFONSO",
+  "despesaTotal": 1828913.57,
+  "partido": "união brasil",
+  "naturalidade": "Pauini (AM)",
+  "nomeCivil": "Adjuto Rodrigues Afonso",
+  "telefone": "(92) 3183-4401",
+  "Email": "deputado.adjutoafonso@aleam.gov.br"
+ },
+ {
+  "id": 201912,
+  "nome": "ALESSANDRA CAMPÊLO",
+  "foto": "ALESSANDRA_CAMPÊLO",
+  "despesaTotal": 1048216.9600000001,
+  "partido": "partido social cristão",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Alessandra Campêlo da Silva",
+  "telefone": "(92) 3183-4375",
+  "Email": "deputada.alessandracampelo@aleam.gov.br"
+ },
+ {
+  "id": 201906,
+  "nome": "ÁLVARO CAMPELO",
+  "foto": "ÁLVARO_CAMPÊLO",
+  "despesaTotal": 1600453.63,
+  "partido": "partido verde",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Álvaro João Campelo da Mata",
+  "telefone": "(92) 3183-4381",
+  "Email": "deputado.alvarocampelo@aleam.gov.br"
+ },
+ {
+  "id": 201913,
+  "nome": "BELARMINO LINS",
+  "foto": "BELARMINO_LINS",
+  "despesaTotal": 1821813.3600000003,
+  "partido": "progressistas",
+  "naturalidade": "Fonte Boa (AM)",
+  "nomeCivil": "Belarmino Lins de Albuquerque",
+  "telefone": "(92) 3183-4415",
+  "Email": "deputado.belarmino@aleam.gov.br"
+ },
+ {
+  "id": 201914,
+  "nome": "CABO MACIEL",
+  "foto": "CABO_MACIEL",
+  "despesaTotal": 1634525.75,
+  "partido": "partido liberal",
+  "naturalidade": "Humaitá (AM)",
+  "nomeCivil": "Alcimar Maciel Pereira",
+  "telefone": "(92) 3183-4403",
+  "Email": "deputado.cabomaciel@aleam.gov.br"
+ },
+ {
+  "id": 201902,
+  "nome": "CARLINHOS BESSA",
+  "foto": "CARLINHOS_BESSA",
+  "despesaTotal": 1745889.1700000002,
+  "partido": "partido verde",
+  "naturalidade": "Tefé (AM)",
+  "nomeCivil": "Carlos Eduardo Bessa de Sá",
+  "telefone": "(92) 3183-4436",
+  "Email": "deputado.carlinhosbessa@aleam.gov.br"
+ },
+ {
+  "id": 201905,
+  "nome": "DELEGADO PÉRICLES",
+  "foto": "DELEGADO_PÉRICLES",
+  "despesaTotal": 1256830.9300000002,
+  "partido": "partido liberal",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Péricles Rodrigues do Nascimento",
+  "telefone": "(92) 3183-4427",
+  "Email": "deputado.delegadopericles@aleam.gov.br"
+ },
+ {
+  "id": 201915,
+  "nome": "DERMILSON CHAGAS",
+  "foto": "DERMILSON_CHAGAS",
+  "despesaTotal": 1771283.3800000001,
+  "partido": "republicanos",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Dermilson Carvalho das Chagas",
+  "telefone": "(92) 3183-4399",
+  "Email": "deputado.dermilsonchagas@aleam.gov.br"
+ },
+ {
+  "id": 201916,
+  "nome": "DR. GOMES",
+  "foto": "DR_GOMES",
+  "despesaTotal": 1797891.7500000002,
+  "partido": "partido social cristão",
+  "naturalidade": "Cruzeiro do Sul (AC)",
+  "nomeCivil": "Francisco do Nascimento Gomes",
+  "telefone": "(92) 3183-4406",
+  "Email": "deputado.drgomes@aleam.gov.br"
+ },
+ {
+  "id": 201903,
+  "nome": "DRA. MAYARA",
+  "foto": "DRA_MAYARA",
+  "despesaTotal": 1731077.5200000003,
+  "partido": "republicanos",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Mayara Monique Figueiredo Pinheiro Reis",
+  "telefone": "(92) 3183-4412",
+  "Email": "deputada.mayarapinheiro@aleam.gov.br"
+ },
+ {
+  "id": 201908,
+  "nome": "FAUSTO JÚNIOR",
+  "foto": "FAUSTO_JÚNIOR",
+  "despesaTotal": 1802034.9100000001,
+  "partido": "união brasil",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Fausto Vieira dos Santos Júnior",
+  "telefone": "(92) 3183-4377",
+  "Email": "deputado.faustojunior@aleam.gov.br"
+ },
+ {
+  "id": 201910,
+  "nome": "FELIPE SOUZA",
+  "foto": "FELIPE_SOUZA",
+  "despesaTotal": 1792784.51,
+  "partido": "patriota",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Luis Felipe Silva de Souza",
+  "telefone": "(92) 3183-4421",
+  "Email": "deputado.felipesouza@aleam.gov.br"
+ },
+ {
+  "id": 201917,
+  "nome": "JOANA DARC",
+  "foto": "JOANA_DARC",
+  "despesaTotal": 1657953.68,
+  "partido": "união brasil",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Joana Darc dos Santos Cordeiros",
+  "telefone": "(92) 3183-4383",
+  "Email": "deputada.joanadarc@aleam.gov.br"
+ },
+ {
+  "id": 201918,
+  "nome": "JOÃO LUIZ",
+  "foto": "JOÃO_LUIZ",
+  "despesaTotal": 1635618.2800000003,
+  "partido": "republicanos",
+  "naturalidade": "Rio de Janeiro (RJ)",
+  "nomeCivil": "João Luiz Almeida da Silva",
+  "telefone": "(92) 3183-4909",
+  "Email": "deputado.joaoluiz@aleam.gov.br"
+ },
+ {
+  "id": 201919,
+  "nome": "NEJMI AZIZ",
+  "foto": "NEJMI_AZIZ",
+  "despesaTotal": 767064.6499999999,
+  "partido": "partido social democrata",
+  "naturalidade": "Foz do Iguaçu (PR)",
+  "nomeCivil": "Nejmi Jomaa Abdel Aziz",
+  "telefone": "(92) 3183-4385",
+  "Email": "deputada.nejmiaziz@aleam.gov.br"
+ },
+ {
+  "id": 201920,
+  "nome": "RICARDO NICOLAU",
+  "foto": "RICARDO_NICOLAU",
+  "despesaTotal": 1495709.7500000002,
+  "partido": "solidariedade",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Luís Ricardo Saldanha Nicolau",
+  "telefone": "(92) 3183-4418",
+  "Email": "deputado.ricardonicolau@aleam.gov.br"
+ },
+ {
+  "id": 201901,
+  "nome": "ROBERTO CIDADE",
+  "foto": "ROBERTO_CIDADE",
+  "despesaTotal": 1768746.2999999996,
+  "partido": "união brasil",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Roberto Maia Cidade Filho",
+  "telefone": "(92) 3183-4391",
+  "Email": "deputado.robertocidade@aleam.gov.br"
+ },
+ {
+  "id": 201921,
+  "nome": "SAULLO VIANNA",
+  "foto": "SAULLO_VIANNA",
+  "despesaTotal": 1750149.1799999997,
+  "partido": "união brasil",
+  "naturalidade": "Parintins (AM)",
+  "nomeCivil": "Saullo Velame Vianna",
+  "telefone": "(92) 3183-4440",
+  "Email": "deputado.saullovianna@aleam.gov.br"
+ },
+ {
+  "id": 201922,
+  "nome": "SERAFIM CORRÊA",
+  "foto": "SERAFIM_CORRÊA",
+  "despesaTotal": 970532.62,
+  "partido": "partido socialista brasileiro",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Serafim Fernandes Corrêa",
+  "telefone": "(92) 3183-4424",
+  "Email": "gabinete.serafimcorrea@gmail.com"
+ },
+ {
+  "id": 201907,
+  "nome": "SINÉSIO CAMPOS",
+  "foto": "SINÉSIO_CAMPOS",
+  "despesaTotal": 1706936.88,
+  "partido": "partido dos trabalhadores",
+  "naturalidade": "Santarém (PA)",
+  "nomeCivil": "Sinésio da Silva Campos",
+  "telefone": "(92) 3183-4432",
+  "Email": "deputado.sinesio@aleam.gov.br"
+ },
+ {
+  "id": 201909,
+  "nome": "THEREZINHA RUIZ",
+  "foto": "THEREZINHA_RUIZ",
+  "despesaTotal": 1798091.1699999997,
+  "partido": "partido liberal",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Therezinha Ruiz de Oliveira",
+  "telefone": "(92) 3183-4541",
+  "Email": "deputada.therezinharuiz@aleam.gov.br"
+ },
+ {
+  "id": 201923,
+  "nome": "TONY MEDEIROS",
+  "foto": "TONY_MEDEIROS",
+  "despesaTotal": 937119.8999999999,
+  "partido": "partido liberal",
+  "naturalidade": "Parintins (AM)",
+  "nomeCivil": "João Wellington de Medeiros Cursino",
+  "telefone": "(92) 3183-4443",
+  "Email": "deputado.tonymedeiros@aleam.gov.br"
+ },
+ {
+  "id": 201924,
+  "nome": "WILKER BARRETO",
+  "foto": "WILKER_BARRETO",
+  "despesaTotal": 1796956.1800000002,
+  "partido": "cidadania23",
+  "naturalidade": "Manaus (AM)",
+  "nomeCivil": "Mauricio Wilker de Azevedo Barreto",
+  "telefone": "(92) 3183-4388",
+  "Email": "deputado.wilkerbarreto@aleam.gov.br"
+ }
+]
