@@ -11,7 +11,8 @@ for (let a = 0; a < deputadosData.length; a++ ) {
 
     //foto do deputado
     img = document.createElement("img");
-    img.src = `./images/deputados/${deputadosData[a].foto}-min.png`;
+    img.src = `./images/deputados/${deputadosData[a].foto}.png`;
+    console.log(img);
 
     //card do deputado (div)
     let card = document.createElement("div");
@@ -50,7 +51,7 @@ for (let a = 0; a < deputadosData.length; a++ ) {
         console.log(infoIdDep);
 
         let imagem_dep = document.querySelector("#imagem_dep");
-        imagem_dep.src = `./images/deputados/${infoIdDep.foto}-min.png`;
+        imagem_dep.src = `./images/deputados/${infoIdDep.foto}.png`;
 
         let name_dep_card = document.querySelector("#name_dep_card");
         name_dep_card.innerHTML = infoIdDep.nome;
