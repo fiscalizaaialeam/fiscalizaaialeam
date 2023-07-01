@@ -37,8 +37,61 @@ for (let a = 23; a >= 0; a--) {
     divTexto.appendChild(valor);
     // div card
     let divCard = document.createElement("div");
-    divCard.setAttribute("id","divCard");
+    divCard.setAttribute("Class","divCard");
+    divCard.setAttribute("id",rankingDataOrdered[a].id);
     divCard.appendChild(img);
     divCard.appendChild(divTexto);
     box.insertAdjacentElement("afterbegin",divCard);
+
 }
+
+//criação de lista das divs dos deputados
+const cards = document.querySelectorAll(".divCard");
+
+console.log(cards);
+
+//adição de event listenner nos cards dos deputados
+
+for (let c = 0; c < cards.length; c++) {
+    let element = cards[c];
+    element.addEventListener("click", () => {
+        let elementId = element.id;
+        console.log(elementId);
+        getInfo(elementId);
+    });
+}
+
+//pegando as informações de apenas um deputado clicado
+function getInfo(idValue) {
+    let infoIdDep = rankingData.find( elemento => elemento.id == idValue);
+    console.log(infoIdDep);
+
+    let ficha_nome = document.querySelector("#nome_ficha");
+    ficha_nome.innerHTML = `Ficha de Gastos do Deputado ${infoIdDep.nome}`;
+
+    let total_disponivel = document.querySelector("#valor_num_dis");
+    total_disponivel.innerHTML = `${infoIdDep.valorDisponivel.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`;
+
+    let total_gasto = document.querySelector("#valor_num_tot");
+    total_gasto.innerHTML = `${infoIdDep.despesaTotal.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`;
+
+    let total_poupado = document.querySelector("#valor_num_poup");
+    total_poupado.innerHTML = `${infoIdDep.valorPoupado.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`;
+
+    show();
+}
+
+function show(){
+    const botao = document.querySelector("#box_gastos");
+    botao.classList.toggle('active');
+    let el = document.getElementById('box_gastos');
+    // utiliza método
+    let elCoordenadas = el.getBoundingClientRect();
+    // verificar as propriedades com as coord
+    console.log(elCoordenadas);
+    console.log(elCoordenadas.width);
+
+}
+
+
+

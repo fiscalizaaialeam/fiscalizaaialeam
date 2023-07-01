@@ -93,7 +93,7 @@ header {
     margin-bottom: 15px;
 }
 
-#divCard {
+.divCard {
     display: flex;
     background-color: whitesmoke;
     max-width: 600px;
@@ -104,34 +104,71 @@ header {
     margin-bottom: 10px;
 }
 
-#divCard:hover{
+.divCard:hover{
     box-shadow: 0px 0px 8px #272A59;
     cursor: pointer;
 }
 
-#divLinha {
-    max-width: 800px;
-    min-width: 320px;
-    height: 2px;
-    background-color: black;
-    margin-bottom: 10px;
-}
-
-#divCard img {
+.divCard img {
     display: block;
     width: 100px;
     box-shadow: 0px 0px 2px black;
 }
 
-#divCard #divTexto {
+.divCard #divTexto {
     margin-left: 8px;
 }
 
-#divCard #divTexto h2 {
+.divCard #divTexto h2 {
     margin-bottom: 4px;
 }
 
-#divCard #divTexto h3 {
+.divCard #divTexto h3 {
+    margin-bottom: 12px;
+}
+
+#box_gastos {
+    display: none;
+}
+
+#box_gastos.active {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+    max-width: 420px;
+    min-width: 320px;
+    min-height: 280px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+    padding: 10px;
+    border:solid 6px;
+    border-color: #272A59;
+}
+
+.close-btn {
+    font-weight: bolder;
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-right: 18px;
+}
+
+#nome_ficha {
+    margin-bottom: 8px;
+}
+
+.valor_num {
     margin-bottom: 12px;
 }
 
