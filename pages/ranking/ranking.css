@@ -95,7 +95,18 @@ header {
 
 #divCard {
     display: flex;
+    background-color: whitesmoke;
+    max-width: 600px;
+    min-width: 320px;
     margin-bottom: 15px;
+    box-shadow: 0px 0px 2px black;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#divCard:hover{
+    box-shadow: 0px 0px 8px #272A59;
+    cursor: pointer;
 }
 
 #divLinha {

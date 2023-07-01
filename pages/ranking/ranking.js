@@ -40,12 +40,5 @@ for (let a = 23; a >= 0; a--) {
     divCard.setAttribute("id","divCard");
     divCard.appendChild(img);
     divCard.appendChild(divTexto);
-    // div linha
-    let divLinha = document.createElement("div");
-    divLinha.setAttribute("id","divLinha");
-    // adicionando à caixa de contúdo do html 
-    if (a != 23) {
-        box.insertAdjacentElement("afterbegin",divLinha);
-    }
     box.insertAdjacentElement("afterbegin",divCard);
 }
