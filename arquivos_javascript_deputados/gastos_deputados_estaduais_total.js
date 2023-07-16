@@ -206,5 +206,9 @@ window.gastos = [
                {
                 "data": "Apr-23",
                 "valor": 1151193.85
+               },
+               {
+                "data": "May-23",
+                "valor": 1154666.93
                }
               ]
